@@ -14,7 +14,7 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - ./prometheus:/etc/prometheus
+      - ./prometheus/:/etc/prometheus
       - prom_data:/prometheus
 
 volumes:
